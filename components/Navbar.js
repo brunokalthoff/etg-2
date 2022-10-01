@@ -1,11 +1,22 @@
+import Link from "next/link";
 function Navbar() {
   return (
     <nav>
       <div className="navigation">
-        <a href="/">Home</a>
-        <a href="/art">Exhibition</a>
-        <a href="/admission">Admission</a>
-        <a href="https://enterthegateway.art" target="_blank" rel="noopener noreferrer">ETG Gallery</a>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+        <Link href="/art">
+          <a>Exhibition</a>
+        </Link>
+        <Link href="/admission">
+          <a>Admission</a>
+        </Link>
+        <Link
+          href="https://enterthegateway.art"
+        >
+          <a>ETG Gallery</a>
+        </Link>
       </div>
     </nav>
   );

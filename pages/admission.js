@@ -15,7 +15,7 @@ function Admission() {
         <span className="title"> Admission</span>
 
         <p>
-          We’d like to invite you to contribute an amount of your choice to the
+          We&apos;d like to invite you to contribute an amount of your choice to the
           Study Free Program. It will leave a lucky Filipino student completely
           care-free of their finances.
         </p>
@@ -35,7 +35,7 @@ function Admission() {
           replying to your donator email with the number of the NFT you like to
           receive.
         </p>
-        <p>And of course: you're a moral superhero!!</p>
+        <p>And of course: you&apos;re a moral superhero!!</p>
         <div>
           <motion.p
             initial={{ x: 0 }}
@@ -63,7 +63,7 @@ function Admission() {
         </div>
         <p>
           Nonetheless, we want to grant equal accessability to art, so if you
-          cannot or want not donate, you’re still warmly welcome to enjoy this
+          cannot or want not donate, you&apos;re still warmly welcome to enjoy this
           exhibition for free.
         </p>
         <div className="flex justify-between mt-6">
