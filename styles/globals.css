@@ -1,10 +1,73 @@
-html,
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Color styles */
+  --yellow1: hsla(52, 81.5%, 61.8%, 1);
+  --yellow2: hsla(52, 70.8%, 58.4%, 1);
+  --yellow3: hsla(52, 54.3%, 52%, 1);
+  --yellow4: hsla(52, 50.5%, 42%, 1);
+  --yellow5: hsla(52, 50.4%, 25.3%, 1);
+  --yellow6: hsla(53, 49%, 10%, 1);
+
+  --green1: hsla(113, 64.3%, 58.2%, 1);
+  --green2: hsla(113, 55.8%, 54.7%, 1);
+  --green3: hsla(113, 46.1%, 48%, 1);
+  --green4: hsla(113, 45.8%, 37.6%, 1);
+  --green5: hsla(113, 46.7%, 20.6%, 1);
+  --green6: hsla(112, 45.1%, 10%, 1);
+
+  --teal1: hsla(183, 56.4%, 58.6%, 1);
+  --teal2: hsla(183, 48.7%, 54.9%, 1);
+  --teal3: hsla(183, 40.2%, 47.8%, 1);
+  --teal4: hsla(183, 40%, 37.3%, 1);
+  --teal5: hsla(183, 39.4%, 19.4%, 1);
+  --teal6: hsla(183, 41.2%, 10%, 1);
+
+  --purple1: hsla(247, 73.6%, 65.9%, 1);
+  --purple2: hsla(247, 62.5%, 62.4%, 1);
+  --purple3: hsla(247, 46.7%, 55.1%, 1);
+  --purple4: hsla(247, 38.1%, 44.3%, 1);
+  --purple5: hsla(247, 38.3%, 26.1%, 1);
+  --purple6: hsla(246, 37.7%, 15.1%, 1);
+
+  --magenta1: hsla(321, 62.4%, 50%, 1);
+  --magenta2: hsla(321, 62.3%, 46.9%, 1);
+  --magenta3: hsla(321, 62.3%, 40.6%, 1);
+  --magenta4: hsla(321, 62.5%, 31.4%, 1);
+  --magenta5: hsla(321, 63%, 15.9%, 1);
+  --magenta6: hsla(322, 64.7%, 10%, 1);
+
+  --white: hsla(250, 37.5%, 96.9%, 1);
+  --grey1: hsla(248, 15.7%, 80%, 1);
+  --grey2: hsla(247, 24.6%, 27.1%, 1);
+  --black: hsla(247, 32.1%, 11%, 1);
+
+  --neutral-rwhite: hsla(0, 0%, 100%, 1);
+  --neutral-grey1: hsla(0, 0%, 74.9%, 1);
+  --neutral-grey2: hsla(0, 0%, 33.3%, 1);
+  --neutral-black: hsla(0, 0%, 7.1%, 1);
+  --neutral-rblack: hsla(0, 0%, 0%, 1);
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html,
+body {
   font-family: "Press Start 2P", cursive, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
+  font-size: 16px;
+  color: var(--black);
 }
 
 a {
@@ -12,62 +75,58 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  text-decoration: underline;
+  color: var(--yellow3);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+/* LAYOUT */
 
 main {
   min-height: 100vh;
   max-width: 900px;
   margin: 0 auto;
+  padding: 2rem 0;
   gap: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.icon {
-  vertical-align: middle;
-}
-
-.buttons {
-  margin-top: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.buttons button {
-  padding: 2rem;
-}
-
-.buttons button i {
-  vertical-align: middle;
-}
-
-.nes-container {
-  width: 100%;
-}
-
 nav {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 1  ;
+  min-width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+footer {
+  min-width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
 }

@@ -1,0 +1,169 @@
+.nes-btn {
+  padding: 1.5rem;
+  user-select: none;
+}
+
+.nes-btn.is-yellow {
+  color: #fff;
+  background-color: var(--yellow2);
+}
+
+.nes-btn.is-yellow::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px var(--yellow4);
+}
+
+.nes-btn.is-yellow:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--yellow3);
+}
+
+.nes-btn.is-yellow:hover::after {
+  box-shadow: inset -6px -6px var(--yellow4);
+}
+
+.nes-btn.is-yellow:focus {
+  box-shadow: 0 0 0 6px hsla(53, 38.3%, 26.1%, 0.3);
+}
+
+.nes-btn.is-yellow:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px var(--yellow3);
+}
+
+.nes-btn.is-green {
+  color: #fff;
+  background-color: var(--green2);
+}
+
+.nes-btn.is-green::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px var(--green4);
+}
+
+.nes-btn.is-green:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--green3);
+}
+
+.nes-btn.is-green:hover::after {
+  box-shadow: inset -6px -6px var(--green4);
+}
+
+.nes-btn.is-green:focus {
+  box-shadow: 0 0 0 6px hsla(113, 38.3%, 26.1%, 0.3);
+}
+
+.nes-btn.is-green:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px var(--green3);
+}
+
+.nes-btn.is-teal {
+  color: #fff;
+  background-color: var(--teal2);
+}
+
+.nes-btn.is-teal::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px var(--teal4);
+}
+
+.nes-btn.is-teal:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--teal3);
+}
+
+.nes-btn.is-teal:hover::after {
+  box-shadow: inset -6px -6px var(--teal4);
+}
+
+.nes-btn.is-teal:focus {
+  box-shadow: 0 0 0 6px hsla(183, 38.3%, 26.1%, 0.3);
+}
+
+.nes-btn.is-teal:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px var(--teal3);
+}
+
+.nes-btn.is-purple {
+  color: #fff;
+  background-color: var(--purple2);
+}
+
+.nes-btn.is-purple::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px var(--purple4);
+}
+
+.nes-btn.is-purple:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--purple3);
+}
+
+.nes-btn.is-purple:hover::after {
+  box-shadow: inset -6px -6px var(--purple4);
+}
+
+.nes-btn.is-purple:focus {
+  box-shadow: 0 0 0 6px hsla(247, 38.3%, 26.1%, 0.3);
+}
+
+.nes-btn.is-purple:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px var(--purple3);
+}
+
+.nes-btn.is-magenta {
+  color: #fff;
+  background-color: var(--magenta2);
+}
+
+.nes-btn.is-magenta::after {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  content: "";
+  box-shadow: inset -4px -4px var(--magenta4);
+}
+
+.nes-btn.is-magenta:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--magenta3);
+}
+
+.nes-btn.is-magenta:hover::after {
+  box-shadow: inset -6px -6px var(--magenta4);
+}
+
+.nes-btn.is-magenta:focus {
+  box-shadow: 0 0 0 6px hsla(321, 38.3%, 26.1%, 0.3);
+}
+
+.nes-btn.is-magenta:active:not(.is-disabled)::after {
+  box-shadow: inset 4px 4px var(--magenta3);
+}
