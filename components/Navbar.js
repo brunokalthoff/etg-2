@@ -15,7 +15,8 @@ function Navbar() {
         <Link
           href="https://enterthegateway.art"
         >
-          <a>ETG Gallery</a>
+          <a target="_blank"
+              rel="noopener noreferrer">ETG Gallery</a>
         </Link>
       </div>
     </nav>
