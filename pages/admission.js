@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Admission() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Head>
         <title>ETG#2</title>
         <meta name="description" content="virtual art exhibition" />
