@@ -11,21 +11,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="nes-container with-title">
-        <span className="title">Welcome to ETG#2</span>
+      <h1>Welcome to ETG#2</h1>
+      <p className="mt-0">
+        Hi visitor, it&apos;s great to see you&apos;re here!
+      </p>
 
-        <h2>
-          Hi visitor <i className="nes-icon is-large heart align-middle"></i>
-        </h2>
-        <p>
-          It&apos;s great to see you&apos;re here!
-          <br /> <br />
-          Welcome text...
-        </p>
-      </div>
-
-      <div className="nes-container with-title">
-        <span className="title"> Admission</span>
+      <div className="nes-container with-title is-rounded">
+        <span className="title">ADMISSION</span>
         <p>
           You can get access to the exhibition by paying an amount of your
           choice to the Study Free Program.
@@ -41,11 +33,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="nes-container with-title">
-        <span className="title">Exhibition</span>
+      <div className="nes-container with-title is-rounded">
+        <span className="title">EXHIBITION</span>
         <p>
-          Welcome back to the second exhibit of the ETG Online Art Gallery! It&apos;s
-          been an inspiring year full of change and growth. We&apos;re
+          Welcome back to the second exhibit of the ETG Online Art Gallery!
+          It&apos;s been an inspiring year full of change and growth. We&apos;re
           extraordinarily happy that we can show you this exhibit featuring our
           hand picked more-than talented international artists. Enjoy a
           high-spirit month of December.
@@ -59,15 +51,15 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="nes-container with-title">
-        <span className="title">ETG Art Gallery</span>
+      <div className="nes-container with-title is-rounded">
+        <span className="title">ETG ART GALLERY</span>
         <p>
-          Vernisage!! Still remember ETG#1 from Feb 21? We&apos;re excited that ETG
-          has now turned into an online art gallery; with high intentions. We,
-          Gina and Bruno, will curate regular exhibitions following a 3-fold
+          Vernisage!! Still remember ETG#1 from Feb 21? We&apos;re excited that
+          ETG has now turned into an online art gallery; with high intentions.
+          We, Gina and Bruno, will curate regular exhibitions following a 3-fold
           purpose: Enjoy art. Enjoy life. Continuously fund the Study Free
-          Program. Don&apos;t forget to check out the ETG Art Gallery&apos;s site for more
-          funky stuff going on in the intergalactic W3 out there.
+          Program. Don&apos;t forget to check out the ETG Art Gallery&apos;s
+          site for more funky stuff going on in the intergalactic W3 out there.
         </p>
 
         <div className={styles.button}>

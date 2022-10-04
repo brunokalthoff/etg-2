@@ -11,17 +11,16 @@ export default function Art() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div className="nes-container with-title">
-          <span className="title">Exhibition</span>
+        <h1>Exhibition</h1>
+        <div>
           <div>
-            <p className="nes-balloon from-right nes-pointer">
+            <p className="nes-balloon from-right">
               I have contributed an amount of my choice to the Study Free
               Program or will do it later!
             </p>
           </div>
           <div>
-            <p className="nes-balloon from-left nes-pointer">
+            <p className="nes-balloon from-left">
               Thank you!{" "}
               <i className="nes-icon is-medium heart align-middle"></i>
             </p>
@@ -34,10 +33,9 @@ export default function Art() {
             </Link>
           </div>
           <br />
-          <i className="nes-icon star is-small"></i> Note: If you want to buy an
+          Note: If you want to buy an
           artist a coffee, you can do so on the exhibition page.
         </div>
-      </main>
 
       <footer className={styles.footer}></footer>
     </div>

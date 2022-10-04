@@ -4,8 +4,8 @@
 }
 
 .nes-btn.is-yellow {
-  color: #fff;
-  background-color: var(--yellow2);
+  color: #fff;;
+  background-color: var(--yellow3);
 }
 
 .nes-btn.is-yellow::after {
@@ -21,7 +21,7 @@
 .nes-btn.is-yellow:hover {
   color: #fff;
   text-decoration: none;
-  background-color: var(--yellow3);
+  background-color: var(--yellow4);
 }
 
 .nes-btn.is-yellow:hover::after {
